@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: none;
+}
+h1,h2,h3,h4{
+    line-height: 1.2rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.1rem;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+/* ===== section logo in Sign UP ===== */
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+.logo{
+    padding: 2rem;
+    display: block;
+    /* text-align: center; */
+    margin-right: 7rem;
+    background-color: linear-gradient(right,rgb(129, 166, 231),rgb(198, 132, 34));
+}
+.logo a{
+    font-size: 3rem;
+}
+.login__container{
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 3rem;  
+    vertical-align: top;  
+}
+.social-media{
+    /* background-image: linear-gradient(to right, rgb(124,144,231),rgba(231,57,245)); */
+    border-radius: 1.5rem;
+    color: black;
+}
+.social-media h1{
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 3.4rem;
+}
+.social-media p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.social-media ul{
+    padding-top: 3rem;
+    margin-left: 10rem; 
+    
+}
+.btn{
+    display: block;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: rgb(142, 234, 203);
+    margin: 2rem;
+}
+.btn-primary{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    padding: 1rem 35rem 1rem 1rem;
+    margin: 3rem 4rem;
+    width: 80%;
+    position: relative;
+}
+.social-media button{
+    align-items: center;
+    vertical-align: auto;
+}
+.social-media button{
+    text-align:left;
+}
+ul i{
+    border: 3px solid rgb(109, 103, 92);
+    border-radius: 50%;
+    padding: 0.8rem;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+ul i:hover{
+    background-color:rgb(109, 103, 92);
+    padding: 2rem;
+    position:sticky;
+}
+.display__info{
+    padding-top: 2rem;
+    display: block;
+    /* background-image: linear-gradient(to right, rgb(225, 140, 180),rgb(78, 134, 150)); */
+}
+.display__info h2{
+    padding-bottom: 4rem;
+    font-size: 3rem;
+}
